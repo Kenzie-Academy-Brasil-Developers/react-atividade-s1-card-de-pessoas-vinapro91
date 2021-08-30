@@ -1,0 +1,17 @@
+.UserBox{
+    margin: 1rem;
+    width: 350px;
+    height: 250px;
+    background-color: rgb(101, 70, 185);
+    border-radius: 10px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.UserBox h1 {
+    font-size:  2rem ;
+}
+.UserBox:hover{
+    filter: brightness(50%);
+}
